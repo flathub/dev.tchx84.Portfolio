@@ -3,7 +3,7 @@
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "3.38",
     "sdk" : "org.gnome.Sdk",
-    "command" : "portfolio",
+    "command" : "dev.tchx84.Portfolio",
     "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -54,8 +54,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.1",
-                    "commit": "3aa14e60e004eaf8184d537e5b1e1663f663d679"
+                    "tag": "v0.9.2",
+                    "commit": "b7cfa0be6612d5033b27cbba9e87894d5e65b96e"
                 }
             ]
         }
