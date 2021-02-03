@@ -54,8 +54,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.6",
-                    "commit": "e4a4725964be1a8bfef10acc08f0ba1b5f59d437"
+                    "tag": "v0.9.7",
+                    "commit": "1cf9f8668a6125983b1f119d2a138de6961c855e"
                 }
             ]
         }
