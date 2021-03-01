@@ -11,6 +11,8 @@
         "--filesystem=home",
         "--filesystem=/media",
         "--filesystem=/run/media",
+        "--talk-name=org.gtk.vfs",
+        "--talk-name=org.gtk.vfs.*",
         "--own-name=org.freedesktop.FileManager1"
     ],
     "cleanup" : [
@@ -58,8 +60,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.9",
-                    "commit": "e6d93690877cbf44b5ac666d443c3228147c75fa"
+                    "tag": "v0.9.10",
+                    "commit": "e860105f7aa744bb80e9080f2a567c28b7627029"
                 }
             ]
         }
