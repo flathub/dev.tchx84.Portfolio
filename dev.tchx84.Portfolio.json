@@ -1,7 +1,7 @@
 {
     "app-id" : "dev.tchx84.Portfolio",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.38",
+    "runtime-version" : "40",
     "sdk" : "org.gnome.Sdk",
     "command" : "dev.tchx84.Portfolio",
     "finish-args" : [
@@ -28,28 +28,6 @@
     ],
     "modules" : [
         {
-            "name": "libhandy",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dgtk_doc=false",
-                "-Dtests=false",
-                "-Dexamples=false",
-                "-Dvapi=false",
-                "-Dglade_catalog=disabled"
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/pkgconfig"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.2.tar.xz",
-                    "sha256": "3ad78d0594165c7e8150f662506d386552825e693aa3679744af96bd94dc1c2d"
-                }
-            ]
-        },
-        {
             "name" : "portfolio",
             "builddir" : true,
             "buildsystem" : "meson",
@@ -60,8 +38,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.10",
-                    "commit": "e860105f7aa744bb80e9080f2a567c28b7627029"
+                    "tag": "v0.9.11",
+                    "commit": "717e4246bdf1e1bbf1c5465446c382cbefa9f648"
                 }
             ]
         }
