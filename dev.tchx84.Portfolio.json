@@ -38,8 +38,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.11",
-                    "commit": "717e4246bdf1e1bbf1c5465446c382cbefa9f648"
+                    "tag": "v0.9.12",
+                    "commit": "46da669903c287aae2f3f3fda1c34b2ef7f20bb3"
                 }
             ]
         }
