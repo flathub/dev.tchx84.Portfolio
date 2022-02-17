@@ -1,7 +1,7 @@
 {
     "app-id" : "dev.tchx84.Portfolio",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "dev.tchx84.Portfolio",
     "finish-args" : [
@@ -13,6 +13,7 @@
         "--filesystem=/run/media",
         "--talk-name=org.gtk.vfs",
         "--talk-name=org.gtk.vfs.*",
+        "--system-talk-name=org.freedesktop.UDisks2",
         "--own-name=org.freedesktop.FileManager1"
     ],
     "cleanup" : [
@@ -38,8 +39,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.12",
-                    "commit": "46da669903c287aae2f3f3fda1c34b2ef7f20bb3"
+                    "tag": "v0.9.13",
+                    "commit": "9c0f575708a6f134021f54a94254d3ab2258bcd2"
                 }
             ]
         }
