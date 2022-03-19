@@ -11,8 +11,6 @@
         "--filesystem=home",
         "--filesystem=/media",
         "--filesystem=/run/media",
-        "--talk-name=org.gtk.vfs",
-        "--talk-name=org.gtk.vfs.*",
         "--system-talk-name=org.freedesktop.UDisks2",
         "--own-name=org.freedesktop.FileManager1"
     ],
@@ -39,8 +37,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.13",
-                    "commit": "9c0f575708a6f134021f54a94254d3ab2258bcd2"
+                    "tag": "v0.9.14",
+                    "commit": "3a62146660f64d6cf213791ab8a71f2fff9034f8"
                 }
             ]
         }
