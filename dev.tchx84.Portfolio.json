@@ -1,13 +1,14 @@
 {
     "app-id" : "dev.tchx84.Portfolio",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "dev.tchx84.Portfolio",
     "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
+        "--device=dri",
         "--filesystem=home",
         "--filesystem=/media",
         "--filesystem=/run/media",
@@ -37,8 +38,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v0.9.15",
-                    "commit": "6440dbd2a5aaa07459601643280c59492f9dc908"
+                    "tag": "v1.0.0",
+                    "commit": "81c5960847d640a1bdd83651c8c71032dbb44270"
                 }
             ]
         }
