@@ -1,7 +1,7 @@
 {
     "app-id" : "dev.tchx84.Portfolio",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "dev.tchx84.Portfolio",
     "finish-args" : [
@@ -38,8 +38,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tchx84/Portfolio.git",
-                    "tag": "v1.0.0",
-                    "commit": "81c5960847d640a1bdd83651c8c71032dbb44270"
+                    "tag": "v1.0.1",
+                    "commit": "a7605af48401529662a72614943d3bc774822ea5"
                 }
             ]
         }
