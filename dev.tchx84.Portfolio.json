@@ -40,6 +40,10 @@
                     "url" : "https://github.com/tchx84/Portfolio.git",
                     "tag": "v1.0.1",
                     "commit": "a7605af48401529662a72614943d3bc774822ea5"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }

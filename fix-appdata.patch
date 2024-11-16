@@ -1,0 +1,28 @@
+From 351a339e1f314ab3e6f4d4aa3d422e08ab39c49e Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sun, 17 Nov 2024 00:04:26 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ data/dev.tchx84.Portfolio.metainfo.xml.in | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/data/dev.tchx84.Portfolio.metainfo.xml.in b/data/dev.tchx84.Portfolio.metainfo.xml.in
+index c0f9780..8792757 100644
+--- a/data/dev.tchx84.Portfolio.metainfo.xml.in
++++ b/data/dev.tchx84.Portfolio.metainfo.xml.in
+@@ -40,8 +40,11 @@
+   <!-- TRANSLATORS: Don't translate this text -->
+   <developer_name>Martin Abente Lahaye</developer_name>
+   <update_contact>martin.abente.lahaye@gmail.com</update_contact>
++  <launchable type="desktop-id">dev.tchx84.Portfolio.desktop</launchable>
+   <url type="homepage">https://github.com/tchx84/Portfolio</url>
+   <url type="bugtracker">https://github.com/tchx84/Portfolio/issues</url>
++  <url type="vcs-browser">https://github.com/tchx84/Portfolio</url>
++  <url type="translate">https://github.com/tchx84/Portfolio/tree/master/po</url>
+   <custom>
+     <value key="Purism::form_factor">mobile</value>
+   </custom>
+--
+libgit2 1.7.2
+
