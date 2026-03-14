@@ -1,7 +1,7 @@
 {
     "app-id" : "dev.tchx84.Portfolio",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "dev.tchx84.Portfolio",
     "finish-args" : [
@@ -14,17 +14,6 @@
         "--filesystem=/run/media",
         "--system-talk-name=org.freedesktop.UDisks2",
         "--own-name=org.freedesktop.FileManager1"
-    ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
     ],
     "modules" : [
         {
